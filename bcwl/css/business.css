@@ -1,0 +1,252 @@
+dd{
+    margin-left:10px;
+}
+.inner{
+    width:1200px;
+    margin:0 auto;
+}
+.header{
+    width:1200px;
+    background:#fff;
+    position:relative;
+    margin:0 auto;
+}
+.header h1{
+    width:157px;
+    height:35px;
+    background:url("../image/logo.jpg") no-repeat;
+    margin:22px 0 22px 0;
+    float:left;
+}
+.header h1 a{
+    display: block;
+    width:100%;
+    height:100%;
+    text-indent:-9999em;
+}
+.header ul,.header ul li{
+    float:left;
+}
+.header ul{
+    margin-left:174px;
+}
+.header ul li:nth-last-child(1){
+    position:absolute;
+    left:763px;
+    top:0;
+    opacity:0;
+    background:red;
+    width:108px;
+    height:80px;
+    cursor:pointer;
+}
+.header ul li a.active{
+    color:#4e9ed5;
+}
+.header ul li{
+    position:relative;
+}
+.header ul li a{
+    text-decoration:none;
+    display:block;
+    font-size:16px;
+    color:#656768;
+    width:108px;
+    height:80px;
+    text-align:center;
+    line-height:80px;
+}
+.header ul li a:hover{
+    color:#4e9ed5;
+}
+.solid{
+    position:absolute;
+    left:0;
+    top:0;
+    width:0;
+    height:6px;
+    background:#4e9ed5;
+}
+.solid-active{
+    width:100%;
+}
+.bus-b{
+    height:1412px;
+    background: #f5f5f5;
+}
+.bus-head{
+    width:100%;
+    height:280px;
+    background:url(../image/business-b.jpg) repeat-x;
+    position:relative;
+}
+.bus-head1{
+    position:absolute;
+    top:100px;
+    left:42%;
+    font-size:50px;
+    color:#ebedea;
+    font-weight:bold;
+}
+.bus-head b{
+    width:486px;
+    height:3px;
+    background: #1a2833;
+    position:absolute;
+    top:128px;
+    z-index: 1;
+}
+.i-head4{
+    left:60px;
+}
+.i-head5{
+    right:44px;
+}
+.i-head{
+    width:100%;
+    height:412px;
+    background:url(../image/business-b.jpg) no-repeat;
+    position: relative;
+}
+.bus-head2{
+    position:absolute;
+    bottom:86px;
+    left:44%;
+    font-size:14px;
+    color:#2c3a45;
+}
+.bus-bus{
+    height:24px;
+    border-left:4px solid #14222d;
+    margin-top:80px;
+}
+.bus-bus a{
+    font-size:12px;
+    color:#9ea5ab;
+    margin-top:10px;
+}
+.bus-bus .bus-b1{
+    font-size:18px;
+    color:#14222d;
+    margin-top:0px;
+    margin-left:6px;
+}
+.bus-bus .bus-b2{
+    width:904px;
+    border:1px solid #d5d5d7;
+    margin-left:6px;
+    margin-right:26px;
+    margin-top:16px;
+}
+.bus-com{
+    height:268px;
+}
+.bus-com{
+    height:268px;
+    margin-top:38px;
+}
+.bus-com .bus-c1{
+    line-height:28px;
+    font-size:14px;
+    color:#14222d;
+    font-weight:bold;
+    margin-left:0px;
+}
+.bus-com .bus-c2{
+    height:40px;
+    overflow:hidden;
+}
+.bus-com .bus-c2 .bus-c3{
+    width:24px;
+    height:24px;
+    margin-right:8px;
+    position:relative;
+}
+.bus-c2 .bus-c3 i{
+    width:24px;
+    height:24px;
+    background:url(../image/business2.png) repeat-x;
+    position:absolute;
+    left:-1px;
+    top:7px;
+}
+.bus-c2 .bus-c3 b{
+    color:#fff;
+    font-size:2px;
+    position:absolute;
+    left:7px;
+    top:14px;
+}
+.bus-c2 .bus-c4{
+    font-size:12px;
+    color:#7c7c7c;
+    margin-top:12px;
+}
+.bus-com1{
+    margin-top:20px;
+    height:112px;
+}
+.bus-com .bus-c6{
+    line-height:52px;
+}
+.bus-com .bus-c5{
+    font-size:12px;
+    color:#7c7c7c;
+    line-height:30px;
+}
+.bus-com2{
+    height:476px;
+}
+.bus-com2 .bus-co1{
+    margin-top:30px;
+    margin-right:116px;
+    width:312px;
+    height:370px;
+    position:relative;
+}
+.bus-co1 .bus-co2{
+    position:absolute;
+    top:54px;
+    left:102px;
+}
+.bus-co1 .bus-co3{
+    width:310px;
+    height:310px;
+    background:url(../image/business3.png) no-repeat;
+    position:absolute;
+    top:114px;
+    left:0;
+}
+.bus-co1 .bus-co3 h3{
+    font-size:14px;
+    font-weight:bold;
+    color:#14222d;
+    margin-left:126px;
+    margin-top:100px;
+}
+.bus-co1 .bus-co3 p{
+    line-height:22px;
+    font-size:12px;
+    color:#7c7c7c;
+}
+.bus-co3 .bus-co4{
+    margin-left:124px;
+}
+.bus-co3 .bus-co5{
+    margin-left:112px;
+}
+.bus-co3 .bus-co6{
+    margin-left:86px;
+}
+.bus-co3 .bus-co7{
+    margin-left:103px;
+}
+.bus-com2 .bus-co8{
+    margin-right:0;
+}
+.bus-co3 .bus-co9{
+    margin-left:122px;
+}
+.bus-co3 .bus-co10{
+    margin-left:112px;
+}

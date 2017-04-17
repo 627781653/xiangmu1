@@ -1,0 +1,35 @@
+*{
+	margin:0;
+	padding:0;
+	color:#7f7d7d;
+	line-height:100%;
+	font-family:"\5fae\8f6f\96c5\9ed1";
+}
+a{
+	text-decoration:none;
+	font-size:12px;
+}
+em, i{
+	font-style:normal;
+}
+strong, b{
+	font-weight:normal;
+}
+ul, ol, dl{
+	list-style:none;
+}
+img{
+	display:block;
+}
+textarea, select, input{
+	outline:none;
+	color:#bcbab5;
+	padding-left:10px;
+}
+textarea{
+	resize:none;
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight:normal;
+	font-style:normal;
+}

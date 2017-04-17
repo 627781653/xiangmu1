@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商务合作</title>
+    <link href="../css/base.css" rel="stylesheet" />
+    <link href="../css/common.css" rel="stylesheet" />
+    <link href="../css/business.css" rel="stylesheet" />
+    <link href="../css/footer.css" rel="stylesheet" />
+    <script src="../js/jquery-1.7.2.js"></script>
+    <script>
+        $(function(){
+            var aLi=$('#ul1>li');
+            var aI=$('.solid');
+            var aA=$('.header>ul>li>a');
+            $.each(aLi,function(i){
+                aLi.mouseover(function(i){
+                    /*aI.eq(4).css({'width':'100%'});
+                    aA.eq(4).addClass('active');*/
+                    aI.eq($(this).index()) .stop().animate({'width':'100%'});
+                    aA.eq($(this).index()).addClass('active');
+                });
+                aLi.mouseout(function(i){
+                    aI.eq($(this).index()).stop().animate({'width':'0'});
+                    aA.eq($(this).index()).removeClass('active');
+                });
+            });
+        });
+    </script>
+    <!--[if lt IE 9]>
+    <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="header clearfix">
+        <h1>
+            <a href="../index.html">冰川网络</a>
+        </h1>
+        <ul id="ul1">
+            <li><a href="../index.html">首页<i class="solid"></i></a></li>
+            <li><a href="ice.html">冰川产品<i class="solid"></i></a></li>
+            <li><a href="aboutour.html">关于我们<i class="solid"></i></a></li>
+            <li><a href="news.html">冰川新闻<i class="solid"></i></a></li>
+            <li><a href="business.html" class="active">商务合作<i class="solid solid-active"></i></a></li>
+            <li><a href="logon.html">登陆<i class="solid"></i></a></li>
+            <li><a href="register.html">注册中心<i class="solid"></i></a></li>
+            <li></li>
+        </ul>
+    </div>
+    <div class="bus-b">
+        <div class="bus-head">
+            <b class="i-head4 inner"></b>
+            <h2 class="bus-head1 inner">商务合作</h2>
+            <p class="bus-head2 inner">Business coperation</p>
+            <b class="i-head5 inner"></b>
+        </div>
+        <div class="bus-bus inner clearfix">
+            <p class="bus-b1 fl">商务合作</p>
+            <b class="bus-b2 fl"></b>
+            <a href="javascript:;" class="fl">当前设备:</a>
+            <a href="javascript:;" class="fl">首页</a>
+            <a href="javascript:;" class="fl">-商务合作</a>
+        </div>
+        <dl class="bus-com inner">
+            <dt class="bus-c1">公司优势</dt>
+            <dd class="bus-c2 clearfix">
+                <div class="bus-c3 fl">
+                    <i></i>
+                    <b>1</b>
+                </div>
+                <p class="bus-c4 fl">雄厚的资金基础、强劲的技术积累、自主研发的游戏引擎量子引擎、自主研发游戏开发平台。</p>
+            </dd>
+            <dd class="bus-c2 clearfix">
+                <div class="bus-c3 fl">
+                    <i></i>
+                    <b>2</b>
+                </div>
+                <p class="bus-c4 fl">最专业的售后服务人员及最完善的售后服务机制，在新浪游戏客服世界杯竞赛中已挺进四强。</p>
+            </dd>
+            <dd class="bus-c2 clearfix">
+                <div class="bus-c3 fl">
+                    <i></i>
+                    <b>3</b>
+                </div>
+                <p class="bus-c4 fl">《远征ol》和《龙武》等产品成功上线，并获得了广泛好评和支持的产品，一定的用户规模，经验丰富的推广运营团队。</p>
+            </dd>
+            <dd class="bus-c2 clearfix">
+                <div class="bus-c3 fl">
+                    <i></i>
+                    <b>4</b>
+                </div>
+                <p class="bus-c4 fl">能快速洞察用户需求变化，并快速做出反应。</p>
+            </dd>
+            <dd class="bus-c2 clearfix">
+                <div class="bus-c3 fl">
+                    <i></i>
+                    <b>5</b>
+                </div>
+                <p class="bus-c4 fl">优秀的团队，拥有强大的数字娱乐原创策划和开发队伍，较强的创新能力。</p>
+            </dd>
+            <dd class="bus-c2 clearfix">
+                <div class="bus-c3 fl">
+                    <i></i>
+                    <b>6</b>
+                </div>
+                <p class="bus-c4 fl">与国内主流媒体有着良好的合作关系和诚信记录。</p>
+            </dd>
+        </dl>
+        <dl class="bus-com inner bus-com1">
+            <dt class="bus-c1 bus-c6">合作伙伴</dt>
+            <dd class="bus-c5">目前已与国内十余家大型联运平台盛大，奇虎360，迅雷，多玩游戏，pps等合作，
+                以及40多家小型推广平台合作，大家合作紧密每年能产生近千万的运营收入。海外发行合作方面，
+                《远征OL》和《龙武》在东南亚、港澳台已发行至数十个国家和地区。</dd>
+        </dl>
+        <dl class="bus-com inner bus-com2 clearfix">
+            <dt class="bus-c1 bus-c6">合作联系方式</dt>
+            <dd class="bus-co1 fl">
+                <img src="../image/business2-1.png" alt="" class="bus-co2"/>
+                <div class="bus-co3">
+                    <h3 class="bus-co4">商务合作</h3>
+                    <p class="bus-co5">联系人：张先生</p>
+                    <p class="bus-co6">联系电话：0755-26734360</p>
+                    <p class="bus-co7">邮 件 ：db@q1.com</p>
+                </div>
+            </dd>
+            <dd class="bus-co1 fl">
+                <img src="../image/business2-2.png" alt="" class="bus-co2"/>
+                <div class="bus-co3">
+                    <h3 class="bus-co4">市场合作</h3>
+                    <p class="bus-co5">联系人：韩女士</p>
+                    <p class="bus-co6">联系电话：0755-86008288</p>
+                    <p class="bus-co7 bus-co9">分机号:8003</p>
+                </div>
+            </dd>
+            <dd class="bus-co1 fl bus-co8">
+                <img src="../image/business2-3.png" alt="" class="bus-co2"/>
+                <div class="bus-co3">
+                    <h3 class="bus-co4">冰川招聘</h3>
+                    <p class="bus-co5">联系人：叶小姐</p>
+                    <p class="bus-co6">联系电话：0755-26971982</p>
+                    <p class="bus-co7 bus-co10">邮箱:hr@q1.com</p>
+                </div>
+            </dd>
+        </dl>
+    </div>
+    <div class="all">
+        <footer>
+            <div class="foot clearfix">
+                <dl class="fl">
+                    <dt>热门游戏<b></b></dt>
+                    <dd><a href="javascript:;">远征</a></dd>
+                    <dd><a href="javascript:;">龙武2</a></dd>
+                    <dd><a href="javascript:;">不败传说</a></dd>
+                    <dd><a href="javascript:;">鬼谷无双</a></dd>
+                    <dd><a href="javascript:;">影武者</a></dd>
+                </dl>
+                <dl class="fl">
+                    <dt>冰川通行证<b></b></dt>
+                    <dd><a href="javascript:;">账号管理</a></dd>
+                    <dd><a href="javascript:;">修改密码</a></dd>
+                    <dd><a href="javascript:;">家长监控系统</a></dd>
+                    <dd><a href="javascript:;">VIP入口</a></dd>
+                    <dd><a href="javascript:;">冰川推广员</a></dd>
+                </dl>
+                <dl class="fl">
+                    <dt>账号安全<b></b></dt>
+                    <dd><a href="javascript:;">手机安全认证</a></dd>
+                    <dd><a href="javascript:;">冰川矩阵卡</a></dd>
+                    <dd><a href="javascript:;">手势密保锁</a></dd>
+                    <dd><a href="javascript:;">绑定电脑</a></dd>
+                    <dd><a href="javascript:;">邮箱密码</a></dd>
+                    <dd><a href="javascript:;">超级密码</a></dd>
+                </dl>
+                <dl class="fl">
+                    <dt>珍宝阁<b></b></dt>
+                    <dd><a href="javascript:;">远征珍宝阁</a></dd>
+                    <dd><a href="javascript:;">龙武珍宝阁</a></dd>
+                    <dd><a href="javascript:;">不败传说珍宝阁</a></dd>
+                    <dd><a href="javascript:;">冰川宝</a></dd>
+                </dl>
+                <dl class="fl">
+                    <dt>服务<b></b></dt>
+                    <dd><a href="javascript:;">冰川客服中心</a></dd>
+                    <dd><a href="javascript:;">找BUG/提建议</a></dd>
+                    <dd><a href="javascript:;">自助服务</a></dd>
+                    <dd><a href="javascript:;">账号申诉</a></dd>
+                    <dd><a href="javascript:;">防沉迷</a></dd>
+                </dl>
+                <dl class="fl">
+                    <dt>其他<b></b></dt>
+                    <dd><a href="javascript:;">官方淘宝旗舰店</a></dd>
+                    <dd><a href="javascript:;">家长监护</a></dd>
+                    <dd><a href="javascript:;">冰川宝</a></dd>
+                    <dd><a href="javascript:;">冰川公会平台</a></dd>
+                    <dd><a href="javascript:;">商务合作</a></dd>
+                    <dd><a href="javascript:;">招聘动态</a></dd>
+                </dl>
+            </div>
+        </footer>
+        <div class="all">
+            <div class="foot1">
+                <div class="foot2">
+                    <b class="fl"></b>
+                    <div class="fl foot3">
+                        <p>Copyright @2009 - 2016Glacier Co.,Ltd.All Rights Reserved.深圳冰川网络股份有限公司版权所有</p>
+                        <p>粵ICP备09111525号 网络文化经营许可证：粵网文[2015]2035-421号 粵B2-20090165</p>
+                        <p>公司地址：深圳市南山区科技中二路1号深圳软件园(2期)9栋601、602室</p>
+                    </div>
+                    <i class="fl"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,246 @@
+.header{
+    width:1200px;
+    background:#fff;
+    position:relative;
+    margin:0 auto;
+}
+.header h1{
+    width:157px;
+    height:35px;
+    background:url("../image/logo.jpg") no-repeat;
+    margin:22px 0 22px 0;
+    float:left;
+}
+.header h1 a{
+    display: block;
+    width:100%;
+    height:100%;
+    text-indent:-9999em;
+}
+.header ul,.header ul li{
+    float:left;
+}
+.header ul{
+    margin-left:174px;
+}
+.header ul li{
+    position:relative;
+}
+.header ul li:nth-last-child(1){
+    position:absolute;
+    left:655px;
+    top:0;
+    opacity:0;
+    background:red;
+    width:108px;
+    height:80px;
+    cursor:pointer;
+}
+.header ul li a{
+    text-decoration:none;
+    display:block;
+    font-size:16px;
+    color:#656768;
+    width:108px;
+    height:80px;
+    text-align:center;
+    line-height:80px;
+}
+.header ul li a:hover{
+    color:#4e9ed5;
+}
+.header ul li a.active{
+    color:#4e9ed5;
+}
+.solid{
+    position:absolute;
+    left:0;
+    top:0;
+    width:0;
+    height:6px;
+    background:#4e9ed5;
+}
+.solid-active{
+    width:100%;
+}
+.all{
+    width: 100%;
+    margin:0 auto;
+    background: #f5f5f5;
+}
+.news-1 img{
+    width: 100%;
+    height: 278px;
+}
+.inner{
+    width: 1200px;
+    margin:0 auto;
+}
+.content{
+    padding-top:79px;
+    padding-bottom:148px;
+}
+.content1{
+    margin-bottom: 10px;
+}
+.content1 b{
+    width: 4px;
+    height: 24px;
+    background: url(../image/footer-sprite.png) no-repeat -161px 0;
+    margin-right: 6px;
+}
+.content1 h2{
+    font-size:18px;
+    color:#14222d;
+    margin-top:4px;
+}
+.content1 i{
+    width: 959px;
+    border-bottom:1px solid #d5d5d7;
+    margin-top:15px;
+    margin-left:6px;
+}
+.content1 span{
+    color:#9ea5ab;
+    font-size: 12px;
+    margin-top:9px;
+}
+.content2{
+    display: block;
+    width: 1200px;
+    height: 160px;
+    border-bottom:1px solid #d5d5d7;
+}
+.content2-1{
+    width: 1047px;
+    margin-top: 48px;
+}
+.content2-1 h3{
+    font-size: 16px;
+    color:#f00;
+    margin-bottom: 17px;
+}
+.content2-3 h3{
+    font-size: 16px;
+    color:#14222d;
+    margin-bottom: 17px;
+}
+.content2-1 p{
+    line-height: 24px;
+    margin-right: 52px;
+    color:#7c7c7c;
+}
+.content2 i{
+    height: 86px;
+    border-right:1px solid #d5d5d7;
+    margin-top: 37px;
+}
+.content2-2 h4{
+    font-size:36px;
+    color:#909090;
+    margin-top: 28px;
+}
+.content2-2 h5{
+    font-size:14px;
+    color:#909090;
+    margin-top: 14px;
+}
+.content2-2 b{
+    width: 28px;
+    height: 28px;
+    display: block;
+    background: url(../image/footer-sprite.png) no-repeat 0 -42px;
+    margin:20px 0;
+}
+.content2:hover .content2-2 b{
+    width: 28px;
+    height: 28px;
+    display: block;
+    background: url(../image/footer-sprite.png) no-repeat 0 -74px;
+}
+.content2:hover .content2-3 h3{
+    color:#4e9ed5;
+}
+.content3{
+    margin-top:47px;
+    text-align: center;
+    width: 500px;
+    margin-left: 393px;
+}
+.content3 span{
+    margin-top:6px;
+    font-size: 16px;
+    color:#7c7c7c;
+    margin-right:9px;
+}
+.content3 a{
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: #4e9ed5;
+    margin-right:21px;
+}
+.content3 a b{
+    color: #fff;
+    line-height: 25px;
+}
+footer{
+    background:#161e24;
+}
+.foot{
+    width: 1200px;
+    height: 306px;
+    padding-top:46px;
+    margin: 0 auto;
+}
+dl{
+    width: 200px;
+}
+dt{
+    color:#d4af46;
+    font-size:12px;
+}
+dt b{
+    display: block;
+    width: 159px;
+    height: 1px;
+    background:url(../image/footer-sprite.png) no-repeat 0 -36px;
+    margin:9px 0;
+}
+dd{
+    line-height:30px;
+}
+dd a:hover{
+    color:#d4af46;
+    text-decoration: underline;
+}
+.foot1{
+    background:#0c1216;
+}
+.foot2{
+    width: 1200px;
+    margin: 0 auto;
+    height: 130px;
+}
+.foot2 b{
+    width: 156px;
+    height: 34px;
+    background: url(../image/footer-sprite.png) no-repeat;
+    margin-top:50px;
+    margin-right:84px;
+    margin-left:195px;
+}
+.foot3{
+    padding-top:33px;
+    margin-right:71px;
+}
+.foot3 p{
+    line-height:25px;
+    font-size:12px;
+}
+.foot2 i{
+    width: 96px;
+    height: 96px;
+    background: url(../image/footer-sprite.png) no-repeat -204px 0;
+    margin-top:29px;
+}

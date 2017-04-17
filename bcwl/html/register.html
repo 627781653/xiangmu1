@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <script src="../js/jquery-1.7.2.js"></script>
+    <script src="../js/register.js"></script>
+</head>
+<body>
+    <div class="header">
+        <!--<img src="../image/login.jpg" alt="">-->
+        <!--//logo-->
+        <div class="clearfix head">
+            <h1 class="fl">
+                <a href="../index.html" class="fl">冰川网络</a>
+            </h1>
+            <div class="fr logon">
+                <span class="fl">已有账号？</span>
+                <span class="fl"><a href="logon.html">点此登录</a></span>
+            </div>
+        </div>
+        <div class="banner">
+            <!--标题-->
+            <div class="banner-box">
+                <h2>
+                    免费注册冰川通行证
+                </h2>
+                <p>
+                    <span>享受全方位的游戏服务</span>
+                    <i></i>
+                    <b></b>
+                </p>
+            </div>
+            <!--选项卡   注册方式-->
+            <div class="logon-mode">
+                <!--二维码 定位右下角 js添加move-->
+                <div></div>
+                <!--透明层-->
+                <i></i>
+                <div class="box">
+                    <input type="button" value="手机注册" >
+                    <input type="button" value="邮箱注册" class="on">
+                    <input type="button" value="个性注册">
+                    <!--手机注册-->
+                    <div class="box2" id="div1">
+                        <form action="logon.html" class="clearfix">
+                            <ul class="fl">
+                                <li><span>手机号码&nbsp;:</span><input type="text"></li>
+                                <li name="text"><span>验证码&nbsp;:</span><input type="text" name="text" ><b></b></li>
+                                <!--<li><span></span><input type="password" name="password" placeholder="密码"></li>-->
+                            </ul>
+                            <ol class="fl">
+                                <li><b></b><span>请输入11位手机号码</span></li>
+                                <li><b></b><span>请输入验证码</span><a href="javascript:;" class="ina">换一张</a></li>
+                            </ol>
+                            <div class="sub fl">
+                                <input type="checkbox" id="consent">
+                                <label for="consent">我已仔细阅读并接受《冰川通行证用户服务协议》</label><br>
+                                <input type="submit" value="提交" class="submit">
+                            </div>
+                        </form>
+                    </div>
+                    <!--邮箱注册-->
+                    <div class="box2 on" id="div2">
+                        <form action="logon.html" class="clearfix">
+                            <ul class="fl">
+                                <li><span>邮箱地址&nbsp;:</span><input type="text"></li>
+                                <li><span>设置密码&nbsp;:</span><input type="password"></li>
+                                <li><span>确认密码&nbsp;:</span><input type="password"></li>
+                                <li><span>手机号码&nbsp;:</span><input type="text"></li>
+                                <li><span>身份证号&nbsp;:</span><input type="text"></li>
+                                <li name="text"><span>验证码&nbsp;:</span><input type="text" name="text" ><b></b></li>
+                                <!--<li><span></span><input type="password" name="password" placeholder="密码"></li>-->
+                            </ul>
+                            <ol class="fl">
+                                <li><b></b><span>请填写您常用的邮箱</span></li>
+                                <li><b></b><span>6~16位数字和字母</span></li>
+                                <li><b></b><span>请再输入一次</span></li>
+                                <li><b></b><span>您的手机号码</span></li>
+                                <li><b></b><span>请输入18位身份证号</span></li>
+                                <li><b></b><span>请输入验证码</span><a href="javascript:;" class="ina">换一张</a></li>
+                            </ol>
+                            <div class="sub fl">
+                                <input type="checkbox" id="consent2">
+                                <label for="consent2">我已仔细阅读并接受《冰川通行证用户服务协议》</label><br>
+                                <input type="submit" value="提交" class="submit">
+                            </div>
+                        </form>
+                    </div>
+                    <!--个性注册-->
+                    <div class="box2" id="div3">
+                        <form action="logon.html" class="clearfix">
+                            <ul class="fl">
+                                <li><span>用户账号&nbsp;:</span><input type="text"></li>
+                                <li><span>设置密码&nbsp;:</span><input type="text"></li>
+                                <li><span>确认密码&nbsp;:</span><input type="text"></li>
+                                <li><span>手机号码&nbsp;:</span><input type="text"></li>
+                                <li><span>身份证号&nbsp;:</span><input type="text"></li>
+                                <li name="text"><span>验证码&nbsp;:</span><input type="text" name="text" ><b></b></li>
+                                <!--<li><span></span><input type="password" name="password" placeholder="密码"></li>-->
+                            </ul>
+                            <ol class="fl">
+                                <li><b></b><span>首个大写，4-20位子母河数字组合</span></li>
+                                <li><b></b><span>6~16位数字和字母</span></li>
+                                <li><b></b><span>请再输入一次</span></li>
+                                <li><b></b><span>请输入11位手机号码</span></li>
+                                <li><b></b><span>请输入18位身份证号</span></li>
+                                <li><b></b><span>请输入验证码</span><a href="javascript:;" class="ina">换一张</a></li>
+                            </ol>
+                            <div class="sub fl">
+                                <input type="checkbox" id="consent3">
+                                <label for="consent3">我已仔细阅读并接受《冰川通行证用户服务协议》</label><br>
+                                <input type="submit" value="提交" class="submit">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

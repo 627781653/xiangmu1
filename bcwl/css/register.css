@@ -1,0 +1,245 @@
+/*注册css*/
+.header{
+    width: 100%;
+    height: 100%;
+    background:url("../image/login.jpg") no-repeat;
+}
+.header img{
+    width: 100%;
+    height: 100%;
+}
+.head{
+    width:100%;
+    height:100px;
+}
+.head h1{
+    width:194px;
+    height:46px;
+    background:url("../image/logon_logo3.png") no-repeat;
+    margin-top:28px;
+    margin-left:460px;
+
+}
+.head h1 a{
+    display:block;
+    width: 100%;
+    height: 100%;
+    text-indent:-9999em;
+}
+.logon{
+    margin-right:300px;
+}
+.logon span{
+    color:#fff;
+    font-size:14px;
+    line-height:100px;
+}
+.logon span a{
+    color:#67adff;
+}
+.banner{
+    margin: 0 auto;
+    width:808px;
+    height:888px;
+    text-align:center;
+}
+.banner-box{
+    position:relative;
+    left:0;
+    top:-200px;
+}
+.banner-box h2{
+    color:#5daeda;
+    font-size:70px;
+    line-height:114px;
+}
+.banner-box p{
+    font-size:24px;
+    color:#5cd1fa;
+    position:relative;
+    width:100%;
+    margin-bottom:30px;
+}
+.banner-box p span{
+    width:276px;
+}
+.banner-box p i, .banner-box p b{
+    width:157px;
+    height:12px;
+    display:block;
+    position:absolute;
+    top:50%;
+    margin-top:-6px;
+    opacity: 0;
+}
+.banner-box p i{
+    background:url("../image/logon_xuebi.png") 0 -372px no-repeat;
+    /*left:120px;*/
+    left:0;
+}
+.banner-box p b{
+    background:url("../image/logon_xuebi.png") -157px -372px no-repeat;
+    /*right:120px;*/
+    right:0;
+}
+.logon-mode{
+    width:590px;
+    height:620px;
+    margin:0 auto;
+    position:relative;
+}
+.logon-mode i, .logon-mode .box{
+    width: 100%;
+    height: 620px;
+    position: absolute;
+}
+.logon-mode i{
+    display:block;
+    background:#000;
+    opacity:0.5;
+    filter:alpha(opacity=50);
+}
+.box input{
+    width:190px;
+    height:76px;
+    background:#4e95c7;
+    color:#fff;
+    text-align:center;
+    line-height:76px;
+    font-size:18px;
+}
+.box input.on{
+    background:#d4af46;
+}
+.box .box2{
+    display:none;
+}
+.box .box2.on{
+    display:block;
+}
+.box form ul{
+    width:280px;
+    margin-top:44px;
+    margin-left:40px;
+}
+.box form ul li{
+    background:#153553;
+    color:#1c598d;
+    font-size:14px;
+    width:276px;
+    height:38px;
+    border:1px solid #2a608d;
+    margin-bottom:24px;
+}
+.box form ul li span{
+    float:left;
+    width:80px;
+    height:100%;
+    text-align: center;
+    line-height:38px;
+}
+.box form ul li input{
+    width:196px;
+    height:38px;
+    background:#153553;
+    float:right;
+    text-align: left;
+    border:none;
+    outline:none;
+}
+/*.box form ul li[name~=text]{
+    width:98px;
+    height:38px;
+}*/
+.box form ul li[name~=text] span{
+    display: block;
+    width: 68px;
+    height: 70px;
+    float:left;
+}
+.box form ul li[name~=text] input{
+    width: 98px;
+    height:100%;
+    float:left;
+}
+.box form ul li[name~=text] b{
+    display: block;
+    width: 110px;
+    height: 38px;
+    background:url("../image/logon_xuebi.png") no-repeat 0 -147px;
+    float:left;
+}
+.box form ol{
+    width:240px;
+    margin-top:44px;
+    margin-left:16px;
+    text-align: left;
+}
+.box form ol li{
+    width:100%;
+    height:40px;
+    margin-bottom:24px;
+    font-size:12px;
+    color:#67afe2;
+}
+
+.box form ol li b{
+    float: left;
+    width:14px;
+    height:14px;
+    display:block;
+    background:url("../image/logon_xuebi.png") no-repeat;
+    background-position:-90px -50px;
+    margin-top:14px;
+    margin-right:6px;
+    border-radius:50%;
+}
+.box form ol li span{
+    float:left;
+    display:block;
+    text-align:left;
+    line-height:40px;
+    margin-right:6px;
+}
+.ina{
+    display:block;
+    line-height:40px;
+    margin-left:6px;
+}
+.sub{
+    width:590px;
+}
+.sub .submit{
+    width:204px;
+    height:50px;
+    line-height:50px;
+    color:#fff;
+    background:#cdaa48;
+    font-size:16px;
+    margin-top:10px;
+}
+label{
+    font-size:12px;
+    color:#55b9ff;
+}
+#consent,#consent2,#consent3{
+    width:12px;
+    height:12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

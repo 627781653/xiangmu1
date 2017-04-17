@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>冰川</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/news.css">
+    <script src="../js/jquery-1.7.2.js"></script>
+    <script>
+        $(function(){
+            var aLi=$('#ul1>li');
+            var aI=$('.solid');
+            var aA=$('.header>ul>li>a');
+            $.each(aLi,function(i){
+                aLi.mouseover(function(i){
+                    /*aI.eq(3).css({'width':'100%'});
+                    aA.eq(3).addClass('active');*/
+                    aI.eq($(this).index()) .stop().animate({'width':'100%'});
+                    aA.eq($(this).index()).addClass('active');
+                });
+                aLi.mouseout(function(i){
+                    aI.eq($(this).index()).stop().animate({'width':'0'});
+                    aA.eq($(this).index()).removeClass('active');
+
+                });
+            });
+        });
+    </script>
+    <!--[if lt IE 9]>
+    <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="header clearfix">
+    <h1>
+        <a href="../index.html">冰川网络</a>
+    </h1>
+        <ul id="ul1">
+            <li><a href="../index.html">首页<i class="solid"></i></a></li>
+            <li><a href="ice.html">冰川产品<i class="solid"></i></a></li>
+            <li><a href="aboutour.html">关于我们<i class="solid"></i></a></li>
+            <li><a href="javascript:;" class="active">冰川新闻<i class="solid solid-active"></i></a></li>
+            <li><a href="business.html">商务合作<i class="solid"></i></a></li>
+            <li><a href="logon.html">登陆<i class="solid"></i></a></li>
+            <li><a href="register.html">注册中心<i class="solid"></i></a></li>
+            <li></li>
+        </ul>
+    </div>
+    <div class="all">
+        <div class="news-1">
+            <img src="../image/news-1.jpg" alt="">
+        </div>
+        <div class="inner content">
+            <div class="clearfix content1">
+                <b class="fl"></b>
+                <h2 class="fl">冰川新闻</h2>
+                <i class="fl"></i>
+                <span class="fr">当前位置：首页-冰川新闻</span>
+            </div>
+            <a href="javascript:;" class="content2 clearfix">
+                <div class="fl content2-1">
+                    <h3>雄鸡一唱天下白 冰川网络拜大年</h3>
+                    <p>猴去江山添秀色，鸡来日月发春辉！年年如意、岁岁平安；财源广进、富贵吉祥；幸福安康、庆有余；竹抱平安，福满门。新年新气象，我们把最真诚的祝福送给所有的用户：祝愿您永远好心情，永远健康。在您陪伴我们走过的2016年，是您的关心让我们经常思考，也是您的意见促使我们不断进取，在新的一年里，我们会不断的努力，做的...</p>
+                </div>
+                <i class="fl"></i>
+                <div class="fr content2-2">
+                    <h4>01-22</h4>
+                    <h5>2017</h5>
+                    <b></b>
+                </div>
+            </a>
+            <a href="javascript:;" class="content2 clearfix">
+                <div class="fl content2-1">
+                    <h3>鬼谷无双今日逆天封测·新服火爆开启</h3>
+                    <p>逆天改命，血战建国！冰川网络2016旗舰MMORPG网游《鬼谷无双》逆天封测将于12月16日14时正式开启！这是一个战乱纷呈、群雄逐鹿的残酷时代，你将见证无数勇将奇谋、百舸争流，无数英雄豪杰将在这《鬼谷无双》这片战场当中开启一个新的篇章！预约开启时间： 12月12日10:00~12月16日13:00点击查看详情>>>新服开启时间...</p>
+                </div>
+                <i class="fl"></i>
+                <div class="fr content2-2">
+                    <h4>12-16</h4>
+                    <h5>2016</h5>
+                    <b></b>
+                </div>
+            </a>
+            <a href="javascript:;" class="content2 clearfix">
+                <div class="fl content2-1 content2-3">
+                    <h3>幻想天空之城 《远征》年终资料片深度揭秘</h3>
+                    <p>由冰川网络研发运营的王牌国战网游《远征》12月2日迎来全新资料片。风云变，逆苍穹!今日为大家带来《远征》年终资料片“苍穹之域”玩法深度揭秘：首度开放空域版图，开启无羽翼空战新体验，时隔三年全新6星BOSS逆转玩法创世登场;全新佛缘七宝来袭，装备系统大革新!【新地图 东方幻想天空之城】《远征》全新资料片首...</p>
+                </div>
+                <i class="fl"></i>
+                <div class="fr content2-2">
+                    <h4>11-19</h4>
+                    <h5>2016</h5>
+                    <b></b>
+                </div>
+            </a>
+            <a href="javascript:;" class="content2 clearfix">
+                <div class="fl content2-1 content2-3">
+                    <h3>《不败传说》10.28年度最大规模内测 海量更新抢先看</h3>
+                    <p>10月28日《不败传说》年度最大规模内测“屠龙觉醒”不限号测试开启！古老的沙城即将重现，诸多经典传奇元素融入时尚的国战玩法，国战系统全面升级，神器系统增添“麻痹属性”，还有更多副本玩法即将曝光！今日，小编给大家带来《不败传说》年度最大规模内测前瞻，万人国战一触即发！</p>
+                </div>
+                <i class="fl"></i>
+                <div class="fr content2-2">
+                    <h4>10-24</h4>
+                    <h5>2016</h5>
+                    <b></b>
+                </div>
+            </a>
+            <a href="javascript:;" class="content2 clearfix">
+                <div class="fl content2-1 content2-3">
+                    <h3>《鬼谷无双》8月12日不删档首测火爆开启</h3>
+                    <p>冰川网络2016新生代角色扮演网游力作《鬼谷无双》8月12日14:00火爆开测，十重豪华活动助威，更有iPhone6S等实物惊喜不断送出，掀起夏日网游狂欢。开测时间：8月12日 14:00 开测区服：不删档首测 角色预约：8月9日 14:00 本次测试为不删档首测，8月6日-8月18日 玩家可以通过以下方式获得激活码激活测试资格>&g...</p>
+                </div>
+                <i class="fl"></i>
+                <div class="fr content2-2">
+                    <h4>08-08</h4>
+                    <h5>2016</h5>
+                    <b></b>
+                </div>
+            </a>
+            <a href="javascript:;" class="content2 clearfix">
+                <div class="fl content2-1 content2-3">
+                    <h3>新生代角色扮演网游 《鬼谷无双》今日震撼首曝</h3>
+                    <p> 今日，冰川网络正式宣布：2016新生代角色扮演最新力作《鬼谷无双》震撼首曝！概念站同时上线，不删档首测预约报名通道正式开放！角色扮演如何演绎“新生代”？不删档首测预约报名>>>>>> 此次《鬼谷无双》不删档首测概念站以人之“七情”作为主题，用传统丹青水墨笔触勾勒出“爱、恨、贪、嗔、痴、狂、义...</p>
+                </div>
+                <i class="fl"></i>
+                <div class="fr content2-2">
+                    <h4>07-25</h4>
+                    <h5>2016</h5>
+                    <b></b>
+                </div>
+            </a>
+            <div class="content3 clearfix">
+                <span class="fl">页码： 1/1</span>
+                <a href="javascript:;" class="fl"><b>1</b></a>
+                <span class="fl">共有数据：6条&nbsp;&nbsp;&nbsp;6条/页&nbsp;&nbsp;&nbsp;共有1页数据</span>
+            </div>
+        </div>
+        <footer>
+            <div class="foot clearfix">
+                <dl class="fl">
+                    <dt>热门游戏<b></b></dt>
+                    <dd><a href="javascript:;">远征</a></dd>
+                    <dd><a href="javascript:;">龙武2</a></dd>
+                    <dd><a href="javascript:;">不败传说</a></dd>
+                    <dd><a href="javascript:;">鬼谷无双</a></dd>
+                    <dd><a href="javascript:;">影武者</a></dd>
+                </dl>
+                <dl class="fl">
+                    <dt>冰川通行证<b></b></dt>
+                    <dd><a href="javascript:;">账号管理</a></dd>
+                    <dd><a href="javascript:;">修改密码</a></dd>
+                    <dd><a href="javascript:;">家长监控系统</a></dd>
+                    <dd><a href="javascript:;">VIP入口</a></dd>
+                    <dd><a href="javascript:;">冰川推广员</a></dd>
+                </dl>
+                <dl class="fl">
+                    <dt>账号安全<b></b></dt>
+                    <dd><a href="javascript:;">手机安全认证</a></dd>
+                    <dd><a href="javascript:;">冰川矩阵卡</a></dd>
+                    <dd><a href="javascript:;">手势密保锁</a></dd>
+                    <dd><a href="javascript:;">绑定电脑</a></dd>
+                    <dd><a href="javascript:;">邮箱密码</a></dd>
+                    <dd><a href="javascript:;">超级密码</a></dd>
+                </dl>
+                <dl class="fl">
+                    <dt>珍宝阁<b></b></dt>
+                    <dd><a href="javascript:;">远征珍宝阁</a></dd>
+                    <dd><a href="javascript:;">龙武珍宝阁</a></dd>
+                    <dd><a href="javascript:;">不败传说珍宝阁</a></dd>
+                    <dd><a href="javascript:;">冰川宝</a></dd>
+                </dl>
+                <dl class="fl">
+                    <dt>服务<b></b></dt>
+                    <dd><a href="javascript:;">冰川客服中心</a></dd>
+                    <dd><a href="javascript:;">找BUG/提建议</a></dd>
+                    <dd><a href="javascript:;">自助服务</a></dd>
+                    <dd><a href="javascript:;">账号申诉</a></dd>
+                    <dd><a href="javascript:;">防沉迷</a></dd>
+                </dl>
+                <dl class="fl">
+                    <dt>其他<b></b></dt>
+                    <dd><a href="javascript:;">官方淘宝旗舰店</a></dd>
+                    <dd><a href="javascript:;">家长监护</a></dd>
+                    <dd><a href="javascript:;">冰川宝</a></dd>
+                    <dd><a href="javascript:;">冰川公会平台</a></dd>
+                    <dd><a href="javascript:;">商务合作</a></dd>
+                    <dd><a href="javascript:;">招聘动态</a></dd>
+                </dl>
+            </div>
+        </footer>
+        <div class="all">
+            <div class="foot1">
+                <div class="foot2">
+                    <b class="fl"></b>
+                    <div class="fl foot3">
+                        <p>Copyright @2009 - 2016Glacier Co.,Ltd.All Rights Reserved.深圳冰川网络股份有限公司版权所有</p>
+                        <p>粵ICP备09111525号 网络文化经营许可证：粵网文[2015]2035-421号 粵B2-20090165</p>
+                        <p>公司地址：深圳市南山区科技中二路1号深圳软件园(2期)9栋601、602室</p>
+                    </div>
+                    <i class="fl"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
